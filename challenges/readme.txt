@@ -1,0 +1,1 @@
+.acme-challenges to be served from this directory
