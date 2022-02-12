@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 	next();
 });
 
-app.use('/.well-known', express.static('./challenges'));
+app.use('/', express.static('./challenges'));
 
 app.listen(PORT, () => {
 	console.log('CERTBOT started listening');
